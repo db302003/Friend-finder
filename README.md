@@ -1,5 +1,10 @@
 Friend Finder - Node and Express Servers
 
+Type in a "User answers" for best results
+
+User answers: "5, 2, 2, 2, 4, 1, 3, 2, 5, 5"
+User answers: "2, 1, 3, 4, 1, 5, 2, 2, 4, 5"
+User answers: "1, 1, 1, 1, 1, 1, 1, 1, 1, 1"
 
 Overview
 
