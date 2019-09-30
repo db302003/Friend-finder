@@ -32,19 +32,19 @@ Create a folder called FriendFinder. Inside the folder, organize your directorie
 
   FriendFinder
   
-    * .gitignore
-    * app 
-    * data
-        - friends.js
-      - public
-        - home.html
-        - survey.html
-      - routing
-        - apiRoutes.js
-        - htmlRoutes.js
-    - node_modules
-    - package.json
-    - server.js
+     .gitignore
+     app 
+     data
+     friends.js
+     public
+     home.html
+     survey.html
+     routing
+     apiRoutes.js
+     htmlRoutes.js
+     node_modules
+     package.json
+     server.js
 
 
 
