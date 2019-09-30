@@ -30,8 +30,7 @@ Use this as a model for how we expect your assignment look and operate.
 Create a folder called FriendFinder. Inside the folder, organize your directories so it matches the following:
 
 
-  FriendFinder
-  
+##### FriendFinder
      .gitignore
      app 
      data
