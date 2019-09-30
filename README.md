@@ -1,25 +1,28 @@
-Friend Finder - Node and Express Servers
-
-Type in a "User answers" for best results
-
-User answers: "5, 2, 2, 2, 4, 1, 3, 2, 5, 5"
-
-User answers: "2, 1, 3, 4, 1, 5, 2, 2, 4, 5"
-
-User answers: "1, 1, 1, 1, 1, 1, 1, 1, 1, 1"
+# Friend Finder
 
 
-Overview
+
+## Type in a "User answers" for best results
+
+### * User answers: "5, 2, 2, 2, 4, 1, 3, 2, 5, 5"
+
+### * User answers: "2, 1, 3, 4, 1, 5, 2, 2, 4, 5"
+
+### * User answers: "1, 1, 1, 1, 1, 1, 1, 1, 1, 1"
+
+
+
+## Overview
 
 In this activity, you'll build a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
 
-You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
 
 
-Before You Begin
+
+## Before You Begin
 
 
-Check out this demo version of the site. Use this as a model for how we expect your assignment look and operate.
+Use this as a model for how we expect your assignment look and operate.
 Create a folder called FriendFinder. Inside the folder, organize your directories so it matches the following:
 
 
@@ -38,14 +41,9 @@ Create a folder called FriendFinder. Inside the folder, organize your directorie
     - package.json
     - server.js
 
-Submission on BCS
 
 
-Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
-
-
-
-Instructions
+### Instructions
 
 
 Your survey should have 10 questions of your choosing. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
@@ -54,9 +52,8 @@ Your htmlRoutes.js file should include two routes:
 
 
 
-A GET Route to /survey which should display the survey page.
-A default, catch-all route that leads to home.html which displays the home page.
-
+* A GET Route to /survey which should display the survey page.
+* A default, catch-all route that leads to home.html which displays the home page.
 
 
 Your apiRoutes.js file should contain two routes:
@@ -88,7 +85,7 @@ You should save your application's data inside of app/data/friends.js as an arra
     ]
 }
 
-Determine the user's most compatible friend using the following as a guide:
+#### Determine the user's most compatible friend using the following as a guide:
 
 
 
@@ -96,7 +93,7 @@ Convert each user's results into a simple array of numbers (ex: [5, 1, 4, 4, 5, 
 With that done, compare the difference between current user's scores against those from other users, question by question. Add up the differences to calculate the totalDifference.
 
 
-Example:
+#### Example:
 
 
 User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
@@ -104,7 +101,6 @@ User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
 User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
 
 Total Difference: 2 + 1 + 2 = 5
-
 
 
 
@@ -119,58 +115,3 @@ Once you've found the current user's most compatible friend, display the result 
 
 The modal should display both the name and picture of the closest match.
 
-
-
-
-
-Reminder: Submission on BCS
-
-
-Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
-
-
-
-
-
-Minimum Requirements
-
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Adding a README.md as well as adding this homework to your portfolio are required as well and more information can be found below. This assignment must be deployed.
-
-
-
-
-Hosting on Heroku
-
-Now that we have a backend to our applications, we use Heroku for hosting. Please note that while Heroku is free, it will request credit card information if you have more than 5 applications at a time or are adding a database.
-
-Please see Heroku’s Account Verification Information for more details.
-
-See the Supplemental Heroku Deployment Guide for in-detail deployment instructions.
-
-
-
-
-Create a README.md
-
-Add a README.md to your repository describing the project. Here are some resources for creating your README.md. Here are some resources to help you along the way:
-
-
-About READMEs
-Mastering Markdown
-
-
-
-
-
-Add To Your Portfolio
-
-After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
-
-
-
-
-One More Thing
-
-If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
-
-Good Luck!
