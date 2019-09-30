@@ -31,9 +31,10 @@ Create a folder called FriendFinder. Inside the folder, organize your directorie
 
 
   FriendFinder
-    - .gitignore
-    - app
-      - data
+  
+    * .gitignore
+    * app 
+    * data
         - friends.js
       - public
         - home.html
